@@ -1,21 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hamdy Gayar | Portfolio</title>
+  <title>Hamdy El-Gayar | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #1f1f1f;
-      color: #fff;
       margin: 0;
-      padding: 0;
+      font-family: 'Cairo', sans-serif;
+      background: url('images/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
     }
     header {
-      background-color: #111;
-      padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.7);
       text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      width: 120px;
+      border-radius: 10px;
+      margin-bottom: 10px;
     }
     header h1 {
       margin: 0;
@@ -27,65 +33,78 @@
       color: #ccc;
     }
     section {
+      background: rgba(0, 0, 0, 0.75);
+      margin: 30px auto;
+      padding: 30px 20px;
       max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
+      border-radius: 15px;
     }
-    .project {
-      background-color: #2c2c2c;
-      margin-bottom: 20px;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    h2 {
+      color: #ffc107;
+      border-bottom: 1px solid #444;
+      padding-bottom: 10px;
     }
-    .project h2 {
-      margin-top: 0;
-      color: #ffd700;
+    .project, ul li {
+      margin-bottom: 15px;
     }
-    .project a {
-      color: #61dafb;
+    a {
+      color: #00d4ff;
       text-decoration: none;
     }
     footer {
+      background: rgba(0, 0, 0, 0.8);
       text-align: center;
-      padding: 30px;
-      font-size: 0.9rem;
-      background-color: #111;
-      color: #888;
+      padding: 30px 10px;
+      font-size: 0.95rem;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>Hamdy Gayar</h1>
-    <p>Graphic Designer | Front-End Developer | Creative Strategist</p>
+    <img src="images/logo.png" alt="Hamdy Logo">
+    <h1>Hamdy El-Gayar</h1>
+    <p>مصمم جرافيك | مطوّر واجهات أمامية وخلفية | مخطط استراتيجي إبداعي</p>
   </header>
 
   <section>
-    <h2 style="color:#ffd700">Featured Projects</h2>
-
+    <h2>المشاريع المميزة</h2>
     <div class="project">
-      <h2>Al-Nile Gourmet Restaurant – Bilingual Menu</h2>
-      <p>Fully designed Arabic/English menu for a premium Egyptian restaurant based in Dubai.</p>
-      <p><a href="https://hamadino877.github.io/Al-Nile.Menu/" target="_blank">View Live Menu</a> | <a href="https://files.cdn-files-a.com/uploads/10921699/normal_68583e75c58c4.pdf" target="_blank">Download PDF</a></p>
+      <h3>مطعم النيل جورميه – قائمة ثنائية اللغة</h3>
+      <p>تصميم كامل لقائمة طعام عربية/إنجليزية لمطعم مصري فاخر في دبي.</p>
+      <p><a href="https://hamadino877.github.io/Al-Nile.Menu/" target="_blank">عرض مباشر</a> | <a href="https://files.cdn-files-a.com/uploads/10921699/normal_68583e75c58c4.pdf" target="_blank">تحميل PDF</a></p>
     </div>
-
     <div class="project">
-      <h2>HM Solutions – Logo & Brand Identity</h2>
-      <p>Luxury logo and branding concept blending modern typography and golden gradients for a tech startup.</p>
-      <p><a href="#">View Logo (Upload to GitHub repo or Behance)</a></p>
+      <h3>HM Solutions – شعار وهوية بصرية</h3>
+      <p>هوية فاخرة لشركة تقنية باستخدام تدرجات ذهبية وخطوط حديثة.</p>
     </div>
-
     <div class="project">
-      <h2>Visual FX Poster Concept</h2>
-      <p>Cinematic photo manipulation concept using advanced editing techniques and AI-enhanced detail.</p>
-      <p><a href="#">View Design (Upload to GitHub or Behance)</a></p>
+      <h3>ملصق مؤثرات بصرية – تصميم سينمائي</h3>
+      <p>فن رقمي باستخدام تقنيات متقدمة وتفاصيل مدعومة بالذكاء الاصطناعي.</p>
     </div>
+  </section>
 
+  <section>
+    <h2>الخبرات المهنية</h2>
+    <ul>
+      <li>كول سنتر – مطعم ومقهى حدوتة مصرية</li>
+      <li>مدير – ملحمة ومطعم طيبة غورميه</li>
+      <li>مطوّر Front-End & Back-End – شركة API IT</li>
+      <li>مخطط استراتيجي إبداعي – بن غاطي للعقارات</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>معلومات التواصل</h2>
+    <p>📞 0555235140 | 0588602601</p>
+    <p>📍 دبي – البرشاء جنوب ٣، أرجان</p>
+    <p>📧 hamadino877@gmail.com</p>
   </section>
 
   <footer>
-    &copy; 2025 Hamdy Gayar | Connect: hamadino877@gmail.com
+    &copy; 2025 Hamdy El-Gayar – جميع الحقوق محفوظة
   </footer>
+
 </body>
 </html>
